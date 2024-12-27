@@ -6,22 +6,32 @@ const services = [
   {
     title: "Lawn Mowing",
     description: "Professional lawn mowing services for residential and commercial properties",
-    image: "/placeholder.svg"
+    image: "/lovable-uploads/69bde51c-3a76-41fb-b1ad-19c3ff01d3d5.png"
   },
   {
-    title: "Gardening",
-    description: "Complete garden maintenance and landscaping solutions",
-    image: "/placeholder.svg"
+    title: "Gardening & Landscaping",
+    description: "Complete garden maintenance and professional landscaping solutions",
+    image: "/lovable-uploads/2de3e8f9-bf20-418d-b270-49cfdfc92f4a.png"
   },
   {
-    title: "Weed Spraying",
-    description: "Effective weed control and prevention services",
-    image: "/placeholder.svg"
+    title: "Weed Control",
+    description: "Effective weed control and prevention services to maintain a healthy lawn",
+    image: "/lovable-uploads/73efd410-983f-47a0-9850-acc060701613.png"
   },
   {
     title: "Gutter Vacuuming",
-    description: "Professional gutter cleaning and maintenance",
-    image: "/placeholder.svg"
+    description: "Professional gutter cleaning and maintenance to prevent water damage",
+    image: "/lovable-uploads/69bde51c-3a76-41fb-b1ad-19c3ff01d3d5.png"
+  },
+  {
+    title: "Hedge Trimming",
+    description: "Expert hedge trimming and shaping services for a neat garden appearance",
+    image: "/lovable-uploads/2de3e8f9-bf20-418d-b270-49cfdfc92f4a.png"
+  },
+  {
+    title: "Lawn Fertilization",
+    description: "Professional lawn fertilization services for a lush, healthy lawn",
+    image: "/lovable-uploads/73efd410-983f-47a0-9850-acc060701613.png"
   }
 ];
 
