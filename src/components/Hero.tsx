@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen flex items-center justify-center bg-gradient-to-r from-primary-green to-secondary-green">
+    <div className="relative h-screen flex items-center justify-center bg-gradient-to-r from-primary-green to-secondary-green mt-20">
       <div className="absolute inset-0 bg-black/40"></div>
       <div className="relative z-10 text-center text-white px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
