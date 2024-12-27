@@ -23,8 +23,8 @@ export default {
     },
     extend: {
       colors: {
-        'primary-green': '#2F5233',
-        'secondary-green': '#4A7856',
+        'primary-green': '#00af42',
+        'secondary-green': '#33bf68',
         'light-grey': '#F5F5F5',
         'dark-grey': '#333333',
         border: 'hsl(var(--border))',
