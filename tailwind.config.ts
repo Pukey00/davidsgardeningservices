@@ -65,10 +65,21 @@ export default {
         'slide-in': {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0)' }
+        },
+        'gradient-x': {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center'
+          }
         }
       },
       animation: {
-        'slide-in': 'slide-in 0.5s ease-out'
+        'slide-in': 'slide-in 0.5s ease-out',
+        'gradient-x': 'gradient-x 15s ease infinite'
       }
     }
   },
