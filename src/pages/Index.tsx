@@ -5,6 +5,7 @@ import ServiceAreas from "@/components/ServiceAreas";
 import ContactForm from "@/components/ContactForm";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ServiceMap from "@/components/ServiceMap";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
         <ServicesCarousel />
         <Testimonials />
         <ServiceAreas />
+        <ServiceMap />
         <ContactForm />
       </main>
       <Footer />
