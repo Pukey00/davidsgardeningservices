@@ -9,12 +9,21 @@ const ServiceMap = () => {
           Our Service Area
         </h2>
         <div className="max-w-4xl mx-auto">
-          <div className="relative w-full h-[500px] rounded-lg overflow-hidden shadow-xl">
-            <img
-              src="https://maps.googleapis.com/maps/api/staticmap?center=Barham,NSW,Australia&zoom=11&size=1200x500&scale=2&maptype=roadmap&markers=color:0x00af42%7CBarham,NSW,Australia&circle=color:0x00af4233%7Cfillcolor:0x00af4233%7CBarham,NSW,Australia%7C30000&key=YOUR_GOOGLE_MAPS_API_KEY"
-              alt="Map showing Barham, NSW and surrounding service area"
-              className="w-full h-full object-cover"
-            />
+          <div className="relative w-full h-[500px] rounded-lg overflow-hidden shadow-xl bg-gray-100">
+            <div className="absolute inset-0 bg-gray-200">
+              <img
+                src="/placeholder.svg"
+                alt="Map showing Barham, NSW and surrounding service area"
+                className="w-full h-full object-cover opacity-50"
+              />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <p className="text-gray-600 text-center px-4">
+                  Map of Barham, NSW and 30km service radius
+                  <br />
+                  <span className="text-sm">(Contact administrator to enable map)</span>
+                </p>
+              </div>
+            </div>
             <div className="absolute top-4 right-4 bg-white p-2 rounded-lg shadow-md">
               <div className="flex items-center gap-2">
                 <MapPin className="h-5 w-5 text-primary-green" />
