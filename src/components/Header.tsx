@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Sun, Cloud, Moon, Leaf, Flower, Tree } from "lucide-react";
+import { Sun, Cloud, Moon, Leaf, Flower, TreeDeciduous } from "lucide-react";
 
 const Header = () => {
   const [timeOfDay, setTimeOfDay] = useState<string>("");
