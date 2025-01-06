@@ -11,20 +11,29 @@ const Hero = () => {
         backgroundRepeat: 'no-repeat'
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-primary-green/80 to-secondary-green/80"></div>
-      <div className="relative z-10 text-center text-white px-4">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Professional Lawn Care & Garden Maintenance
+      <div className="absolute inset-0 bg-gradient-to-r from-primary-green/90 to-secondary-green/80"></div>
+      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+          Transform Your Outdoor Space
         </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-          Professional lawn care and landscaping services in Barham and surrounds
+        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto leading-relaxed">
+          Expert lawn care and landscaping services in Barham and surrounds. Get your free quote today!
         </p>
-        <Button 
-          className="bg-white text-primary-green hover:bg-light-grey text-lg px-8 py-6"
-          onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-        >
-          Contact Now
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Button 
+            className="bg-white text-primary-green hover:bg-light-grey text-lg px-8 py-6 transform hover:scale-105 transition-all duration-300 shadow-lg"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Get Free Quote
+          </Button>
+          <Button 
+            variant="outline"
+            className="bg-transparent border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-6 transform hover:scale-105 transition-all duration-300"
+            onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            View Services
+          </Button>
+        </div>
       </div>
     </div>
   );
