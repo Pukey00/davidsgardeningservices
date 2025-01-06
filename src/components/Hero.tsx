@@ -33,6 +33,13 @@ const Hero = () => {
           >
             View Services
           </Button>
+          <Button 
+            variant="outline"
+            className="bg-transparent border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-6 transform hover:scale-105 transition-all duration-300"
+            onClick={() => document.getElementById('service-areas')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Service Areas
+          </Button>
         </div>
       </div>
     </div>
